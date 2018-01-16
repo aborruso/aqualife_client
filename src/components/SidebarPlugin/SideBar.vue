@@ -6,14 +6,8 @@
 
     <div class="sidebar-wrapper" ref="sidebarScrollArea">
       <div class="logo">
-        <a class="logo-mini"
-           href="https://www.creative-tim.com/product/vue-light-bootstrap-dashboard-pro">
-          <div class="logo-img">
-              <img :src="logo" alt="">
-          </div>
-        </a>
-        <a href="" class="simple-text logo-normal">
-          {{ title }}
+        <a  href="http://www.aqualifeproject.eu/index.php/en/" target="_blank" class="simple-text logo-normal">
+          <img :src="logo" alt="">
         </a>
       </div>
       <slot>

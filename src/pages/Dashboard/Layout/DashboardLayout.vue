@@ -4,9 +4,14 @@
     <side-bar>
       <mobile-menu></mobile-menu>
       <template slot-scope="props" slot="links">
-        <sidebar-item :link="{name: 'Chemical Risk', path: '/indexes/chemicalrisk'}">
+        <sidebar-item :link="{name: 'Home', path: '/'}">
         </sidebar-item>
+        <sidebar-item :link="{name: 'Chemical Risk', path: '/indexes/chemicalrisk'}"></sidebar-item>
         <sidebar-item :link="{name: 'Theoretical Biological Risk', path: '/indexes/theoretiacalbiologicalrisk'}">
+        </sidebar-item>
+        <sidebar-item :link="{name: 'Empirical Biological Risk', path: '/indexes/empiricalbiologicalrisk'}">
+        </sidebar-item>
+        <sidebar-item :link="{name: 'Conservation Index', path: '/indexes/conservationindex'}">
         </sidebar-item>
         <!--</sidebar-item>-->
         <!--<sidebar-item :link="{name: 'Empirical Biological Risk', icon: 'nc-icon nc-notes'}">-->
